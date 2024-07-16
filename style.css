@@ -1,0 +1,89 @@
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+}
+
+body{
+    background-color: #f3f3f3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333333;
+    color: #f0f0f0;
+    padding: 20px 0;
+}
+
+section {
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+}
+
+.symposia {
+    background-color: #f0f0f0;
+    border: 2px solid #333333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%; 
+    vertical-align: top;
+    font-family: Roboto, sans-serif;
+    margin: 2px;
+    color: #333333;
+    float: left;
+}
+
+.symposia:hover {
+    background-color: #f3f3f3;
+    color: #111111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: font-weight 0.3s;
+}
+
+.symposia a {
+    text-decoration: none;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.papers {
+    background-color: #f0f0f0;
+    border: 2px solid #333333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 45%; 
+    vertical-align: top;
+    font-family: Roboto, sans-serif;
+    margin: 1%;
+    color: #333333;
+    float: left;
+}
+
+.papers:hover {
+    background-color: #f3f3f3;
+    color: #111111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: font-weight 0.3s;
+}
+
+.papers a {
+    text-decoration: none;
+    color: #333333;
+    transition: background-color 0.3s, color 0.3s;
+}
